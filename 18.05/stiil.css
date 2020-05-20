@@ -1,0 +1,24 @@
+.form-control, .alert-danger {
+    margin-left: 25%;
+    margin-right: 50%;   
+    width: 50%;
+}
+
+.silt {
+    margin-left: 25%;
+    margin-right: 50%; 
+    text-align: center;
+}
+p {
+    margin-left: 25%; 
+}
+
+.alert-danger {
+    margin-top: -20px;
+    padding-top: 2 px;
+    padding-bottom: 2px;
+}
+
+#eesnimiViga {
+    visibility: visible;
+}

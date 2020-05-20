@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stiil.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="javascript.js"></script>
+</head>
+<body onload="saaAndmed()">
+    <a href="kodu.html">Mine tagasi</a> <br>
+    <h3>Palun kontrolii enne saatmist oma andmeid</h3><br>
+    <label class="silt" for="fname">Eesnimi:</label><br>
+        <p id="ylevaatusEesnimi">Eesnime ei sisestatud</p><br>
+        <label class="silt" for="lname">Perekonnanimi:</label><br>
+        <p id="ylevaatusPerekonnanimi">Perekonnanime ei sisestatud</p><br>
+        <label class="silt" for="fname">Email:</label><br>
+        <p id="ylevaatusEmail">Emaili ei sisestatud</p><br>
+        <label class="silt" for="fname">Telefoninumber:</label><br>
+        <p id="ylevaatusTelefoninumber">Telefoninumbrit ei sisestatud</p><br>
+        <div class="text-center">
+            <input class="btn btn-primary" type="button" value="Saada"data-toggle="modal" data-target="#myModal">
+        </div>
+
+        
+
+<!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" onclick="saadaVorm()">&times;</button>
+        <h4 class="modal-title">Sinu vastus on saadetud</h4>
+      </div>
+      <div class="modal-body">
+        <p>Oleme sinu avalduse kätte saanud ja võtame sinuga ühendust.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="saadaVorm()">Close</button>
+      </div>
+    </div>
+
+    </div>
+<   /div>
+       
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stiil.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="javascript.js"></script>
+</head>
+<body>
+    <form name="vorm" onsubmit="return validateForm(event)" method="post">
+        <label class="silt" for="fname">Eesnimi:</label><br>
+        <input class="form-control" type="text" id="eesnimi" name="eesnimi" placeholder="Sisesta oma eesnimi"><br>
+        <div class="alert alert-danger" id="eesnimiViga">
+            <strong>Viga!</strong> Eesnimi on jäänud sisestamata.
+          </div>
+        <label class="silt" for="lname">Perekonnanimi:</label><br>
+        <input class="form-control" type="text" id="perekonnanimi" name="perekonnanimi" placeholder="Sisesta oma perekonnanimi"><br>
+        <div class="alert alert-danger" id="perekonnanimiViga">
+            <strong>Viga!</strong> Perekonnanimi on jäänud sisestamata.
+          </div>
+        <label class="silt" for="fname">Email:</label><br>
+        <input class="form-control" type="email" id="email" name="email" placeholder="Sisesta oma email"><br>
+        <div class="alert alert-danger" id="emailViga">
+          <strong>Viga!</strong> Email on jäänud sisestamata.
+        </div>
+        <label class="silt" for="fname">Telefoninumber:</label><br>
+        <input class="form-control" type="numbe      r" id="telefoninumber" name="telefoninumber" placeholder="Sisesta oma telefoninumber"><br>
+        <div class="alert alert-danger" id="telefoninumberViga">
+          <strong>Viga!</strong> Telefoninumber on jäänud sisestamata.
+        </div>
+        <br>
+        <br>
+        <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Sisesta">
+        </div>
+      </form> 
+     
+</body>
+</html>

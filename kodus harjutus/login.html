@@ -1,0 +1,43 @@
+
+<button onclick="document.getElementById('id01').style.display='block'">Logi sisse</button>
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+      <label for="uname"><b>Kasutajanimi</b></label>
+      <input type="text" placeholder="sisene kasutajanimi" name="uname" required>
+      <br>
+      <br>
+      <label for="psw"><b>Salasõna</b></label>
+      <input type="password" placeholder="sisene salasõna" name="psw" required>
+      <br>
+      <br>
+      <button type="submit">Sisene</button>
+      <label>
+        <br>
+        <br>
+        <input type="checkbox" checked="checked" name="remember"> Mäletan
+      </label>
+      <br>
+      <br>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Loobu</button>
+      <br>
+      <br>
+      <span class="psw">Unustasin salasõna? <a href="#">unustasin salasõna?</a></span>
+    </div>
+  </form>
+</div>
